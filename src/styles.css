@@ -1,0 +1,43 @@
+/* src/styles.css */
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #f1f1f1;
+    min-height: 100vh;
+  }
+  
+  /* For the round avatar in Profile */
+  .profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+  }
+  
+  /* For preview images in forms */
+  .preview-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+  
+  /* Card styling (Bootstrap does a lot, but we can tweak) */
+  .card {
+    border-radius: 8px;
+  }
+  
+  .username-availability {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
